@@ -19,3 +19,6 @@ const UseState = () => {
 }
 
 export default UseState
+
+//useState() used for state Management
+// useState gives two values 1.prev value 2. prev value function 
