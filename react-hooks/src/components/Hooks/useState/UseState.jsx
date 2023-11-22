@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 
 const UseState = () => {
   const [name,setName]=useState('')
-  const [count,setCount]=useState(0)
+  const [count,setCount]=useState(()=>{console.log('count render');return 0})
   return (
     <div>
       <h3>This Is UseState</h3>
