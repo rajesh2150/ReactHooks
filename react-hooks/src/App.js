@@ -6,17 +6,23 @@ import UseTransition from './components/Hooks/UseTransition/UseTransition';
 import UseImperativeHandle from './components/Hooks/UseImperativeHandler/UseImperativeHandle';
 import UseDifferendValue from './components/Hooks/UseDifferedValue/UseDifferendValue';
 import UseLayoutEffect from './components/Hooks/UseLayoutEffect/UseLayoutEffect';
+import UseMemo from './components/Hooks/UseMemo/UseMemo';
 
 function App() {
   return (
     <div className="App">
-     <UseState/><hr/>
+      <center>
+      <UseState/><hr/>
      <UseEffect/><hr/>
      <UseRef/><hr/>
      <UseTransition/><hr/>
      <UseImperativeHandle/><hr/>
      <UseDifferendValue/><hr/>
-     <UseLayoutEffect/>
+     <UseLayoutEffect/><hr/>
+     <UseMemo/>
+
+      </center>
+   
     </div>
   );
 }
