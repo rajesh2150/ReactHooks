@@ -7,3 +7,5 @@ React JS Hooks Includes
 5 useDifferedValue()
 6 useTransition()
 7 useImperativeHandle()
+8 useMemo()
+9 useCallback()
