@@ -23,6 +23,7 @@ const Counter = ({ Ref }) => {
 
 export default forwardRef(Counter);
 
+
 //import forwardRef from react and export as  forwardRef(Counter)
 //import useImperativeHandle from react
 //useImperativeHandle(ref,init,dep[]) takes "ref, init" method function,"dep[]" for passing some funcationalities to parent
