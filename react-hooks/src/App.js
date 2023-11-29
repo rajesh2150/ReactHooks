@@ -7,6 +7,7 @@ import UseImperativeHandle from './components/Hooks/UseImperativeHandler/UseImpe
 import UseDifferendValue from './components/Hooks/UseDifferedValue/UseDifferendValue';
 import UseLayoutEffect from './components/Hooks/UseLayoutEffect/UseLayoutEffect';
 import UseMemo from './components/Hooks/UseMemo/UseMemo';
+import UseCallBack from './components/Hooks/UseCallBack/UseCallBack';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
      <UseImperativeHandle/><hr/>
      <UseDifferendValue/><hr/>
      <UseLayoutEffect/><hr/>
-     <UseMemo/>
+     <UseMemo/><hr/>
+     <UseCallBack/>
 
       </center>
    
